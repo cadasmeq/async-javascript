@@ -1,0 +1,20 @@
+{
+  "name": "async-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadasmeq/async-javascript.git"
+  },
+  "keywords": [],
+  "author": "Cristopher Adasme <cadasmeq@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cadasmeq/async-javascript/issues"
+  },
+  "homepage": "https://github.com/cadasmeq/async-javascript#readme"
+}
