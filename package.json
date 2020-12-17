@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/cadasmeq/async-javascript/issues"
   },
-  "homepage": "https://github.com/cadasmeq/async-javascript#readme"
+  "homepage": "https://github.com/cadasmeq/async-javascript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
