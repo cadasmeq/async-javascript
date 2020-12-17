@@ -1,0 +1,58 @@
+Javascript es un lenguaje asincrono y no bloqueante con un manejador de eventos
+(evenloop) implementado en un único hilo para sus interfaces de entrada
+y salida.
+
+Asincronismo: Acción que no ocurre al mismo tiempo.
+
+API: Interfaz de programación de aplicaciones. Es un conjunto de rutinas que
+provee acceso a funciones de un determinado software.
+
+Concurrencia: Cuando dos o más tareas progresan simultáneamente.
+
+Paralelismo: Cuand dos o más tareas se ejecutan, literalmente, a la vez, en el
+mismo instante de tiempo.
+
+Bloqueante: Una llamada u operación bloqueante no devuelve el control a nuestra
+aplicación hasta que se ha completado. Por tanto, el thread queda bloqueado en
+estado de espera.
+
+Call Stack: Pila de llamadas, que se encarga de albergar las instrucciones que
+deben ejecutarse. Nos indica en que punto del programa estamos ,por donde
+vamos.
+
+Heap: Region de memoria libre, normalmente de gran tamaño, dedicada al
+alojamiento dinamico de objectos. Es compartida por todo el programa
+y controlada por un recolector de basura que se encarga de liberar aquello que
+no necesita.
+
+Cola o Queue: Cuando nuestro programa recibe una notificación del exterior o de
+otro contexto distinto de la aplicación, el mensaje se inserta en una cola de
+mensajes pendientes y se registra su callback correspondiente.
+
+EventLoop: Cuando la pila de llamadas (call stack) se vacía, es decir, no hay
+más procesos para ejecutar, se procesan los mensajes de la cola/queue. Con cada
+'tick' del bucle de eventos, se procesa un nuevo mensaje.
+
+DOM: DOM permite acceder y manipular las páginas XHTML como si fueran un
+documento XML. De hecho, DOM se diseñó originalmente para manipular de forma
+sencilla los documentos XML.
+
+XML: Lenguaje de marcado creado para la transferencia de información, legible
+tanto para seres humanos como para aplicaciones informáticas, y basado en una
+sencillez extrema y una rígida sintaxis, Así como el HTML estaba basado y era
+un subconjunto de SGML, la reformulación del primero bajo la sintaxis XML dio
+lugar a XHTML; XHTML, por tanto, es un subconjunto de XML.
+
+Events: Comportamiento del usuario que interactúa con una página que pueden
+detectarse para lanzar una acción, como por ejemploi que el usuario haga click
+en un elemento (onclick), que elija una opción de un desplegable (onselect),
+que pase el ratón sobre un objecto (onmouseover), etc.
+
+Compilar: Compilar es generar código ejecutable por una máquina, que puede ser
+física o abstracta como la máquina virtual de Java.
+
+Transpilar: Transpilar es generar a partir de código en un lenguaje código en
+otro lenguaje. Es decir, un programa produce otro programa en otro lenguaje
+cuyo comportamiento es el mismo que el original.
+
+Callbacks: Función que recibe como argumento otra función y la ejecuta.
