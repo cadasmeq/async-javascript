@@ -56,3 +56,24 @@ otro lenguaje. Es decir, un programa produce otro programa en otro lenguaje
 cuyo comportamiento es el mismo que el original.
 
 Callbacks: Función que recibe como argumento otra función y la ejecuta.
+
+
+CALLBACKS VS ASYNC/AWAIT VS PROMISE
+
+Callbacks:
+  Ventajas: Compatible con todo al ser nativo y solo se anidan las funciones.
+  Desventajas: Composición tosca y poco legible.
+
+Async/Await:
+  Ventajas: Permite el uso de try catch, son más faciles de leer, mucho más
+intuitivas.
+  Desventajas: Se debe esperar a que se realicen primero estos llamados.
+Tambien requiere Polify para que este codigo pueda ser utilizado en otros
+navegadores.
+
+Promise:
+  Ventajas: Son enlazables. Intuitivas de leer. Permite tener fuerte
+posibilidad de trabajar con asincronismo. 
+  Desventajas: No maneja excepciones si no que hay catch para capturar error.
+También es propenso a error si no retornamos el siguiente llamado. Require
+polify para que pueda ser funciona en todos los navegadores (como babel)
