@@ -6,7 +6,7 @@ const doSomethingAsync = () => {
     })
 }
 
-const doSomething = async () => {
+const doSomething =  async () => {
     const something = await doSomethingAsync()
     console.log(something);
 }
