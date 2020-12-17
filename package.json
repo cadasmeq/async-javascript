@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cadasmeq/async-javascript.git"
   },
-  "keywords": [],
+  "keywords": [
+    "promise",
+    "callbacks",
+    "async"
+  ],
   "author": "Cristopher Adasme <cadasmeq@gmail.com>",
   "license": "MIT",
   "bugs": {
